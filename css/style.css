@@ -231,6 +231,8 @@ body.dark-theme {
     text-align: center;
     margin-top: auto;
     transition: background-color 0.3s;
+
+    backdrop-filter: blur(35px);
 }
 
 .dark-theme .footer {
@@ -242,4 +244,22 @@ body.dark-theme {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.button {
+    /* background-color: #f8f9fa; */
+    border-radius: 10px;
+    padding: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Цвета стекла для светлой темы */
+    background: rgba(255, 255, 255, 0.1);
+    border: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.feature-card-button {
+    padding: 10px;
 }
